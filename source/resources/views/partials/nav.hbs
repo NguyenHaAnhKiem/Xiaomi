@@ -1,0 +1,75 @@
+<nav class="vertical_nav">
+    <div class="left_section menu_left" id="js-menu">
+        <div class="left_section">
+            <ul>
+                <li class="menu--item">
+                    <a href="/" class="menu--link {{HomeActive}}" title="Home">
+                        <i class='uil uil-home-alt menu--icon'></i>
+                        <span class="menu--label">Trang chủ</span>
+                    </a>
+                </li>
+                <li class="menu--item">
+                    <a href="help.html" class="menu--link" title="Help">
+                        <i class='uil uil-question-circle menu--icon'></i>
+                        <span class="menu--label">Thông tin</span>
+                    </a>
+                </li>
+                <li class="menu--item">
+                    <a href="feedback.html" class="menu--link" title="Send Feedback">
+                        <i class='uil uil-comment-alt-exclamation menu--icon'></i>
+                        <span class="menu--label">Liên hệ</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="left_section">
+            <h6 class="left_title">Thành Viên</h6>
+            <ul>
+                <li class="menu--item">
+                    <a href="/member/my_reviews" class="menu--link {{MyCourseActive}}" title="My Certificates">
+                        <i class='uil uil-award menu--icon'></i>
+                        <span class="menu--label">Đánh giá của tôi</span>
+                    </a>
+                </li>
+                <li class="menu--item">
+                    <a href="/member/withdrawal" class="menu--link" title="Report History">
+                        <i class='uil uil-windsock menu--icon'></i>
+                        <span class="menu--label">Rút tiền tài khoản</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="left_section">
+            <h6 class="left_title">Admin</h6>
+            <ul>
+                <li class="menu--item">
+                    <a href="/admin/product_management" class="menu--link {{CreatedCourseActive}}" title="Courses">
+                        <i class='uil uil-book-alt menu--icon'></i>
+                        <span class="menu--label">Sản phẩm đã tạo{{Session.isAuth}}</span>
+                    </a>
+                </li>
+                <li class="menu--item">
+                    <a href="/admin/reviews_management" class="menu--link {{ManageCategories}}"
+                        title="/manage_categories">
+                        <i class="uil uil-server menu--icon"></i>
+                        <span class="menu--label">Quản lý đánh giá</span>
+                    </a>
+                </li>
+                <li class="menu--item">
+                    <a href="/admin/member_management" class="menu--link {{ManageMember}}" title="manage_members">
+                        <i class="uil uil-users-alt menu--icon"></i>
+                        <span class="menu--label">Quản lý thành viên</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="left_footer">
+            <div class="left_footer_content">
+                <p>© 2021 <strong>XIAOMI</strong>. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</nav>

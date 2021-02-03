@@ -1,0 +1,84 @@
+{{#section 'js'}}
+<script src="https://cdn.tiny.cloud/1/gadw2ei0rmitlbvc2czb6gz78gh505jbkflso0702yy0gdor/tinymce/5/tinymce.min.js"
+    referrerpolicy="origin"></script>
+<script>
+    // Xử lý khung bài viết
+    tinymce.init({
+        selector: 'textarea',
+        height: 300,
+        plugins: 'paste image link autolink lists table media',
+        menubar: false,
+        toolbar: ['undo redo | bold italic underline strikethrough | numlist bullist | alignleft aligncenter alignright | forecolor backcolor | table link image media'],
+    });
+</script>
+{{/section}}
+
+<div class="_215b01">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="section3125">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-4 col-lg-5 col-md-6">
+                            <div class="preview_video">
+                                <a href="#" class="fcrse_img" data-toggle="modal" data-target="#videoModal">
+                                    <img src="/images/mi11.jpg" alt="">
+                                    <div class="course-overlay">
+                                        <div class="badge_seller bg-dark">25 hours</div>
+                                        <span class="play_btn1"><i class="uil uil-play"></i></span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-7 col-md-6">
+                            <div class="_215b03">
+                                <h2>Xiaomi Mi 11</h2>
+                                <span class="_215b04">Xiaomi Mi 11 là chiếc flagship được trang bị hiệu năng mạnh mẽ,
+                                    kết hợp cùng hàng loạt công nghệ đỉnh cao và thiết kế mới, nhưng vẫn đi kèm một mức
+                                    giá ấn tượng.</span>
+                            </div>
+                            <div class="_215b05">
+                                <div class="crse_reviews mr-2">
+                                    <i class="uil uil-star"></i>710
+                                </div>
+                                Đánh giá
+                            </div>
+                            <div class="_215b05">
+                                <h3>Chi tiết sản phẩm:</h3>
+                            </div>
+                            <div class="_215b05">
+                                Màn hình : AMOLED 6.81″, 2K + 120Hz <br>
+                                Hệ điều hành : MIUI 12.5 <br>
+                                Chipset : Qualcomm 888 <br>
+                                GPU : Adreno 660 <br>
+                                Camera trước : 20MP <br>
+                                Camera sau : 108MP + 13MP +5MP <br>
+                                Chất lượng Video: 8K <br>
+                                Pin : 4600mAh <br>
+                                Sạc nhanh: Có dây 55W, Không dây 50W, Sạc ngược 10W <br>
+                                Cổng kết nối: Type-C <br>
+                                Hỗ trợ: 5G, Bluetooth 5.0, Wi-fi 6.0
+                            </div>
+                            <ul class="_215b31">
+                                <li><button class="btn_adcart">Đánh Giá</button></li>
+                                <li><button class="btn_buy bg-primary">Xóa Đánh Giá</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="_215b15 _byt1458">
+    <div class="container-fluid">
+        <div class="form-group">
+            <textarea class="form-control" rows="10" id="txtNoidung" name="txtNoidung"
+                placeholder="Nội dung đánh giá"></textarea>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <button type="button" class="btn btn-primary btn-block">Thực Hiện Đánh Giá</button>
+    <button type="button" class="btn btn-success btn-block">Xóa Dữ Liệu</button>
+</div>
